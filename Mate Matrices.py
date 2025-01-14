@@ -9,7 +9,7 @@ class AdvancedMatrixCalculator:
     def __init__(self, master):
         self.master = master
         self.master.title("Calculadora de Matrices")
-        self.master.geometry("800x600")
+        self.master.geometry("800x700")
         
         self.show_fractions = tk.BooleanVar(value=False)
         
